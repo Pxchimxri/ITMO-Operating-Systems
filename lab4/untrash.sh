@@ -62,14 +62,13 @@ do
 	file_path=$(echo "$line" | awk '{print $1}')
 	link_name=$(echo "$line" | awk '{print $2}')
 
-	read -p "do you want to untrash file $file_path? Y/N : " ans <&1
+	read -p "Do you want to untrash file $file_path? Y/N : " ans <&1
 
-	#c
 	case "$ans" in
 	[Yy]*)
-		echo "we will try to untrash file to $file_path"
+		echo "Trying to untrash file to $file_path"
 		untrash "$link_name" "$file_path"
-		echo "cuccess"
+		echo "Success"
 	;;
 
 	*)
