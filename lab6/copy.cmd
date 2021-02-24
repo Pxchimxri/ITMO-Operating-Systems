@@ -1,0 +1,1 @@
+xcopy /z c:\images\* \WIN-JE23C730F2B\temp

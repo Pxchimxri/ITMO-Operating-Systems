@@ -1,0 +1,4 @@
+Сравнение services.txt и new_services.txt...
+Разные размеры файлов.
+
+n
